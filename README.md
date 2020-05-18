@@ -1,6 +1,6 @@
 ## Installation
 
-```
+```zsh
 # install layman
 emerge -av layman
 
