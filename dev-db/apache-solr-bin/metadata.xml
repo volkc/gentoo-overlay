@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type='project'>
+		<name>Christian Volk</name>
+		<email>gentoo@christianvolk.eu</email>
+	</maintainer>
+	<use>
+		<flag name="contrib"></flag>
+		<flag name="examples">Install the examples</flag>
+		<flag name="doc">Install the docs along with SOLR</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">volkc/gentoo-overlay</remote-id>
+	</upstream>
+</pkgmetadata>

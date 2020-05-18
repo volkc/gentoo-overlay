@@ -3,12 +3,12 @@
 
 EAPI=7
 
-inherit user java-utils-2
+inherit java-utils-2
 
 MY_PN="solr"
 MY_P="${MY_PN}-${PV}"
 
-DESCRIPTION="The popular, blazing fast open source enterprise search platform from the Apache Lucene project."
+DESCRIPTION="The open source enterprise search platform from the Apache Lucene project."
 HOMEPAGE="https://lucene.apache.org/solr/"
 SRC_URI="mirror://apache/lucene/${MY_PN}/${PV}/${MY_PN}-${PV}.tgz"
 
@@ -20,14 +20,10 @@ IUSE="contrib doc examples"
 
 DEPEND=""
 RDEPEND=">=virtual/jre-1.7
-	examples? ( dev-db/hsqldb:0 )"
+	examples? ( dev-db/hsqldb:0 )
+	acct-user/netdata"
 
 S=${WORKDIR}/${MY_P}
-
-pkg_setup() {
-	enewgroup ${MY_PN} || die "failed to create user group"
-	enewuser ${MY_PN} -1 -1 /var/lib/${MY_PN} ${MY_PN} || die "failed to create user"
-}
 
 src_install() {
 	local randpw=$(echo ${RANDOM}|md5sum|cut -c 1-15)
