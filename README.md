@@ -1,6 +1,6 @@
 ## Installation
 
-``
+```
 # install layman
 emerge -av layman
 
@@ -9,4 +9,4 @@ layman -o https://git.io/JfEzE -f -a cv-gentoo-overlay
 
 # sync
 layman -s cv-gentoo-overlay
-``
+```
