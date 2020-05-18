@@ -1,7 +1,7 @@
 ## Installation
 
 ```zsh
-# install layman
+# install layman (make sure the "git" useflag is set)
 emerge -av layman
 
 # configure layman to fetch this overlay
