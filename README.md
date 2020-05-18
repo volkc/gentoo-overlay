@@ -1,3 +1,5 @@
+![Repoman Status](https://github.com/volkc/gentoo-overlay/workflows/repoman/badge.svg?branch=master)
+
 ## Installation
 
 ```zsh
