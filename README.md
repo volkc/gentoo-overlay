@@ -5,8 +5,8 @@
 emerge -av layman
 
 # configure layman to fetch this overlay
-layman -o https://git.io/JfEzE -f -a cv-gentoo-overlay
+layman -o https://git.io/JfEzE -f -a volkc-gentoo-overlay
 
 # sync
-layman -s cv-gentoo-overlay
+layman -s volkc-gentoo-overlay
 ```

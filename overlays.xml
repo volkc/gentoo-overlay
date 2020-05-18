@@ -2,7 +2,7 @@
 <!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories xmlns="" version="1.0">
 <repo quality="experimental" status="unofficial">
-	<name>cv-gentoo-overlay</name>
+	<name>volkc-gentoo-overlay</name>
 	<description>Personal overlay maintained by Christian Volk</description>
 	<homepage>https://github.com/volkc/gentoo-overlay</homepage>
 	<owner type="project">
