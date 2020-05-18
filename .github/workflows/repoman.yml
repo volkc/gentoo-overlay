@@ -1,4 +1,4 @@
-name: QA
+name: repoman
 
 on: [push, pull_request]
 
