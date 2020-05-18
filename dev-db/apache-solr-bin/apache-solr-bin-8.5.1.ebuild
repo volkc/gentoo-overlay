@@ -21,7 +21,7 @@ IUSE="contrib doc examples"
 DEPEND=""
 RDEPEND=">=virtual/jre-1.7
 	examples? ( dev-db/hsqldb:0 )
-	acct-user/netdata"
+	acct-user/solr"
 
 S=${WORKDIR}/${MY_P}
 
